@@ -1,0 +1,56 @@
+.artistCardMainContainer{
+/* border: 2px solid green; */
+display: flex;
+justify-content: center;
+}
+.artistCard{
+  width: 20%;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: relative;
+}
+.artistCard:hover{
+  background-color: #1f1f1f;
+  cursor: pointer;
+
+}
+.artistCard img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.artistCard span{
+  background: #1ed760;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 90px;
+  right: 30px;
+  display: none;
+}
+.artistCard:hover #playButton {
+  display: flex;
+}
+.artistCard span svg{
+  height: 60%;
+  width: 60%;
+}
+.textContainer{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.textContainer h1{
+  font-size: 0.9rem;
+}
+.textContainer p{
+  font-size: 0.7rem;
+}
