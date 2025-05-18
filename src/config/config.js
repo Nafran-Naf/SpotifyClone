@@ -11,6 +11,11 @@ import artist4 from '../assets/images/artist4.png';
 import artist5 from '../assets/images/artist5.png';
 import artist6 from '../assets/images/artist6.png';
 import audio1 from '../assets/audio/1.mp3'
+import audio2 from '../assets/audio/2.mp3'
+import audio3 from '../assets/audio/3.mp3'
+import audio4 from '../assets/audio/4.mp3'
+import audio5 from '../assets/audio/5.mp3'
+import audio6 from '../assets/audio/6.mp3'
 
 export const TrendingCardData=[
     {
@@ -23,30 +28,30 @@ export const TrendingCardData=[
       imgSrc:img2,
       heading:"Qatal",
       subHeading:"Guru Randhawa, Sanjoy, Gill Machhrai",
-      musicFile:audio1
+      musicFile:audio2
     },
     {
       imgSrc:img3,
       heading:`Minnalvala (From "Narivetta")`,
       subHeading:"Jakes Bejoy, Sid Sriram, Sithara Krishnakumar",
-      musicFile:audio1
+      musicFile:audio3
     },
     {
       imgSrc:img4,
       heading:"Pretty Little Baby - Stereo Mix",
       subHeading:"Connie Francis",
-      musicFile:audio1
+      musicFile:audio4
     },
     {
       imgSrc:img5,
       heading:" Khatole",
       subHeading:"Masoom Sharma, Manjeet Mor, Chahal Saab",
-      musicFile:audio1
+      musicFile:audio5
     },{
       imgSrc:img6,
       heading:"Supreme",
       subHeading:"Shubh",
-      musicFile:audio1
+      musicFile:audio6
     }
   ];
   export const artistList=[

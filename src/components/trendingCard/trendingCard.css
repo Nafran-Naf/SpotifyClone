@@ -16,12 +16,37 @@
  /* justify-content: center; */
  flex-direction: column;
  align-items: center;
+ position: relative;
+}
+.cardContainer:hover{
+  background-color: #1f1f1f;
+  cursor: pointer;
 }
 .cardContainer img{
   width: 94%;
   height: 60%;
   border-radius: 10px;
 
+}
+.cardContainer span{
+  background: #1ed760;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 140px;
+  right: 10px;
+  display: none;
+}
+.cardContainer:hover #playButton{
+  display: flex;
+}
+.cardContainer span svg{
+  height: 60%;
+  width: 60%;
 }
 .cardTextContainer{
   /* border: 2px solid green; */

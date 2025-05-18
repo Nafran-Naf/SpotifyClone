@@ -6,7 +6,7 @@ const SpecificMusicFile = ({currentElement}) => {
       <img src={currentElement.imgSrc} alt="" />
       <h1>{currentElement.heading}</h1>
       <h1>{currentElement.subHeading}</h1>
-      <audio src={currentElement.musicFile} autoPlay  controls></audio>
+      <audio src={currentElement.musicFile}   controls></audio>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import { artistList } from '../../config/config'
 
 const ArtistCard = ({setCurrentPage}) => {
   return (
+    <>
     <div className='artistCardMainContainer'>
       {
         artistList.map((ele)=>{
@@ -24,6 +25,7 @@ const ArtistCard = ({setCurrentPage}) => {
         })
       }
     </div>
+    </>
   )
 }
 
